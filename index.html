@@ -2,27 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Mock Test Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QuizForge AI Mock Test Platform</title>
 
-  <!-- React CDN -->
-  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet"/>
 
-  <!-- Babel for JSX -->
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-  <!-- Optional Tailwind -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body{
+      margin:0;
+      background:#07070E;
+      font-family: "DM Sans", system-ui, sans-serif;
+      color:#EEEEFF;
+    }
+  </style>
 </head>
 
-<body class="bg-gray-100">
+<body>
 
-  <!-- React Root -->
+  <!-- React root -->
   <div id="root"></div>
 
-  <!-- Your JSX file -->
-  <script type="text/babel" src="./app.jsx"></script>
+  <!-- React Entry -->
+  <script type="module" src="/src/main.jsx"></script>
 
 </body>
 </html>
